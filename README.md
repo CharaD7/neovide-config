@@ -52,9 +52,9 @@ Below is a list of the plugins used and their references (where you can find the
 | Undotree                              | [Ming, Bai](https://github.com/mbbill)         | [undotree](https://github.com/mbbill/undotree)         |
 | Vim Reach                             | [Eric Lau](https://github.com/ericglau)        | [Vim/Neovim Reach](https://github.com/ericglau/vim-reach) |
 | Dap UI                                | [Rónán Carrigan](https://github.com/rcarriga)  | [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) |
-| LanguageClient                        | [Junfeng Li](https://github.com/autozimu)      | [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) |
 | FZF                                   | [Junegunn Choi](https://github.com/junegunn)   | [fzf](https://github.com/junegunn/fzf)                       |
 | FD                                    | [David Peter](https://github.com/sharkdp)      | [fd](https://github.com/sharkdp/fd)                         |
+|
 
 
 

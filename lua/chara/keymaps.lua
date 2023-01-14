@@ -61,9 +61,6 @@ map('n', '<leader>cb', ':GitConflictChooseBoth<CR>', opts)
 map('n', '<leader>c0', ':GitConflictChooseNone<CR>', opts)
 map('n', '<leader>cp', ':GitConflictPrevConflict<CR>', opts)
 map('n', '<leader>cn', ':GitConflictNextConflict<CR>', opts)
--- Reach commands
-map('n', '<F4>', ':call LanguageClient#textDocument_hover()<CR>', opts)
-map('n', '<F3>', ':call LanguageClient#textDocument_codeAction()<CR>', opts)
 -- Easy motions
 map('n', '<leader>hw', ':HopWord<CR>', opts)
 map('n', '<leader>hl', ':HopLine<CR>', opts)
