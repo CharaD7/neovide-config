@@ -66,7 +66,7 @@ return packer.startup(function(use)
 	use({ "numToStr/Comment.nvim" })
 	use("SmiteshP/nvim-navic")
 	use("ryanoasis/vim-devicons") -- optional, for file icon
-	use({ "akinsho/bufferline.nvim", tag = "v2.*", requires = "kyazdani42/nvim-web-devicons" })
+	use({ "akinsho/bufferline.nvim", tag = "v2.*" })
 	use({
 		"kyazdani42/nvim-tree.lua",
 		requires = {
@@ -78,7 +78,6 @@ return packer.startup(function(use)
 		end,
 	})
 	use({ "dsznajder/vscode-es7-javascript-react-snippets", run = "yarn install && yarn compile" })
-	use("vscode-langservers/vscode-css-languageserver-bin")
 	-- for resolving git merge conflicts directly in neovim
 	use({
 		'akinsho/git-conflict.nvim',

@@ -28,10 +28,10 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 - Font used: [FiraCode iScript](https://github.com/kencrocken/FiraCodeiScript).
 - Font ligatures and icons capability: [NerdFonts](https://github.com/ryanoasis/nerd-fonts).
 - Plugin manager used: [Packer](https://github.com/wbthomason/packer.nvim).
-- Neovim version: v0.9.0-dev-176+g1fe31651b
-- Neovim Build Type: RelWithDebInfo
+- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) version: v0.9.0-dev-176+g1fe31651b
+- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) Build Type: RelWithDebInfo
 - LuaJit version: 2.1.0-beta3
-- This config runs neoviude in fullscreen mode.
+- This config runs neovide in fullscreen mode.
 
 ## List of Plugins Used
 
@@ -59,7 +59,14 @@ Below is a list of the plugins used and their references (where you can find the
 | Signify                               | [Marco Hinz](https://github.com/mhinz)         | [vim-signify](https://github.com/mhinz/vim-signify)          |
 | Prettier                              | [Munif Tanjim](https://github.com/MunifTanjim)  | [prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) |
 | Code Runner                           | [Diego Aguilar](https://github.com/CRAG666)    | [code_runner.nvim](https://github.com/CRAG666/code_runner.nvim) |
-
+| Comment                               | [NumToStr](https://github.com/numToStr)         | [Comment.nvim](https://github.com/numToStr/Comment.nvim)       |
+| Nvim Navic                            | [Smitesh Patil](https://github.com/SmiteshP)    | [nvim-navic](https://github.com/SmiteshP/nvim-navic)          |
+| Vim Devicons                          | [Ryan L McIntyre](https://github.com/ryanoasis) | [vim-devicons](https://github.com/ryanoasis/vim-devicons)      |
+| Bufferline                            | [Akin](https://github.com/akinsho)              | [bufferline.nvim](https://github.com/akinsho/bufferline.nvim)  |
+| NvimTree                              | [Alexander Courtis](https://github.com/alex-courtis), [Kiyan](https://github.com/kyazdani42) | [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) |
+| Nvim WebDevicons                      | [Alexander Courtis](https://github.com/alex-courtis), [Kiyan](https://github.com/kyazdani42) | [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) |
+| VS Code ES7+ React/Redux/React-Native/JS snippets | [ults-io](https://github.com/ults-io) | [vscode-react-javascript-snippets](https://github.com/ults-io/vscode-react-javascript-snippets) |
+| 
 
 
 
