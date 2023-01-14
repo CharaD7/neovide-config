@@ -66,6 +66,7 @@ Below is a list of the plugins used and their references (where you can find the
 | NvimTree                              | [Alexander Courtis](https://github.com/alex-courtis), [Kiyan](https://github.com/kyazdani42) | [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) |
 | Nvim WebDevicons                      | [Alexander Courtis](https://github.com/alex-courtis), [Kiyan](https://github.com/kyazdani42) | [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) |
 | VS Code ES7+ React/Redux/React-Native/JS snippets | [ults-io](https://github.com/ults-io) | [vscode-react-javascript-snippets](https://github.com/ults-io/vscode-react-javascript-snippets) |
+| Git Conflict                          | [Akin](https://github.com/akinsho)              | [git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim) |
 | 
 
 

@@ -88,7 +88,6 @@ return packer.startup(function(use)
 	})
 	use("glepnir/dashboard-nvim")
 	-- git related
-	use("sainnhe/everforest")
 	use("rmagatti/auto-session")
 	use("rmagatti/session-lens")
 	use({ "lewis6991/gitsigns.nvim", requires = { "nvim-lua/plenary.nvim" } })
