@@ -61,6 +61,8 @@ map('n', '<leader>cb', ':GitConflictChooseBoth<CR>', opts)
 map('n', '<leader>c0', ':GitConflictChooseNone<CR>', opts)
 map('n', '<leader>cp', ':GitConflictPrevConflict<CR>', opts)
 map('n', '<leader>cn', ':GitConflictNextConflict<CR>', opts)
+-- Toggle Transparency
+map('n', 'T', ':TransparentToggle<CR>', opts)
 -- Easy motions
 map('n', '<leader>hw', ':HopWord<CR>', opts)
 map('n', '<leader>hl', ':HopLine<CR>', opts)
@@ -149,6 +151,8 @@ map('n', '<leader>tf', ':Toggleterm<CR>', opts)
 map('n', '<leader>th', ':Toggleterm direction=horizontal<CR>', opts)
 map('n', '<leader>tt', ':Toggleterm direction=tab<CR>', opts)
 map('n', '<leader>tv', ':Toggleterm direction=vertical<CR>', opts)
+-- UndoTree
+map('n', '<c-u>', ':UndotreeToggle<CR>', opts)
 
 -- INSERT MODE MAPS --
 -- -- Remove newbie crutches in COMMAND mode
