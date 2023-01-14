@@ -161,7 +161,6 @@ return packer.startup(function(use)
 	-- Grammar suggestions load_extension
 	use("neovim/nvim-lspconfig")
 	use("RRethy/vim-illuminate")
-	use("williamboman/nvim-lsp-installer")
 	use("nvim-telescope/telescope-media-files.nvim")
 	use("nvim-telescope/telescope-file-browser.nvim")
 	use("xiyaowong/nvim-transparent")

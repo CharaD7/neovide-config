@@ -36,7 +36,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 ## List of Plugins Used
 
 Below is a list of the plugins used and their references (where you can find them on GitHub)
-| Plugin Name                           | Author(s)                                    | Plugin Name and Repository                            |
+| Plugin Name                           | Owner(s)                                    | Plugin Name and Repository                            |
 |:--------------------------------------|:---------------------------------------------|:------------------------------------------------------|
 | Packer                                | [Wil Thomason](https://github.com/wbthomason)  | [packer.nvim](https://github.com/wbthomason/packer.nvim) |
 | Telescope                             | [TJ DeVries](https://github.com/tjdevries), [Simon Hauser](https://github.com/Conni2461), [Fabian David Schmidt](https://github.com/fdschmidt93), [Dicha Zelianivan Arkana](https://github.com/elianiva), [Raphael](https://github.com/glepnir), [kkharji](https://github.com/kkharji), [Dave Lage](https://github.com/rockerBOO) | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) |
@@ -79,6 +79,18 @@ Below is a list of the plugins used and their references (where you can find the
 | Focus                                 | [Beau](https://github.com/beauwilliams)          | [focus.nvim](https://github.com/beauwilliams/focus.nvim)          |
 | Scrollbar                             | [Xuyuan Pang](https://github.com/Xuyuanp)       | [scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim)       |
 | Nvim Colorizer                        | [Ashkan Kiani](https://github.com/norcalli)      | [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) |
+| Indent Blankline                      | [Lukas Reineke](https://github.com/lukas-reineke) | [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) |
+| Vim Asterisk                          | [haya14busa](https://github.com/haya14busa)      | [vim-asterisk](https://github.com/haya14busa/vim-asterisk)        |
+| Lualine                               | [Shadman](https://github.com/shadmansaleh)        | [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)      |
+| Vim Visual Multi                      | [mg979](https://github.com/mg979)                | [vim-visual-multi](https://github.com/mg979/vim-visual-multi)     |
+| Hop                                   | [Dimitri Sabadie](https://github.com/phaazon)     | [hop.nvim](https://github.com/phaazon/hop.nvim)                 |
+| Lightspeed                            | [György Andorka](https://github.com/ggandor)     | [lightspeed.nvim](https://github.com/ggandor/lightspeed.nvim)     |
+| Project                               | [Ahmed Khalf](https://github.com/ahmedkhalf)      | [project.nvim](https://github.com/ahmedkhalf/project.nvim)        |
+| Noice                                 | [Folke Lemaitre](https://github.com/folke)       | [noice.nvim](https://github.com/folke/noice.nvim)                |
+| Nvim JDTLS                            | [Mathias Fußenegger](https://github.com/mfussenegger) | [nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls)      |
+| JC                                    | [Artur Shaik](https://github.com/artur-shaik)     | [jc.nvim](https://github.com/artur-shaik/jc.nvim)                 |
+| LSPconfig                             | [neovim](https://github.com/orgs/neovim/people)    | [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)        |
+| Vim Illuminate                        | [Adam P. Regasz-Rethy](https://github.com/RRethy) | [vim-illuminate](https://github.com/RRethy/vim-illuminate)       |
 | 
 
 
