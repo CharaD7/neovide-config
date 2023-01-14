@@ -67,6 +67,9 @@ Below is a list of the plugins used and their references (where you can find the
 | Nvim WebDevicons                      | [Alexander Courtis](https://github.com/alex-courtis), [Kiyan](https://github.com/kyazdani42) | [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) |
 | VS Code ES7+ React/Redux/React-Native/JS snippets | [ults-io](https://github.com/ults-io) | [vscode-react-javascript-snippets](https://github.com/ults-io/vscode-react-javascript-snippets) |
 | Git Conflict                          | [Akin](https://github.com/akinsho)              | [git-conflict.nvim](https://github.com/akinsho/git-conflict.nvim) |
+| Dashboard                             | [Raphael](https://github.com/glepnir)           | [dashboard.nvim](https://github.com/glepnir/dashboard-nvim)       |
+| Auto-session                          | [Ronnie Magatti](https://github.com/rmagatti)   | [auto-session](https://github.com/rmagatti/auto-session)          |
+| Session-lens                          | [Ronnie Magatti](https://github.com/rmagatti)   | [session-lens](https://github.com/rmagatti/session-lens)          |
 | 
 
 

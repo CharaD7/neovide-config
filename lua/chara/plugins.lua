@@ -90,7 +90,7 @@ return packer.startup(function(use)
 	-- git related
 	use("rmagatti/auto-session")
 	use("rmagatti/session-lens")
-	use({ "lewis6991/gitsigns.nvim", requires = { "nvim-lua/plenary.nvim" } })
+	use({ "lewis6991/gitsigns.nvim" })
 	use("tpope/vim-repeat")
 	use('teal-language/vim-teal')
 	use("tpope/vim-endwise")
