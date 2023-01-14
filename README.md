@@ -70,6 +70,15 @@ Below is a list of the plugins used and their references (where you can find the
 | Dashboard                             | [Raphael](https://github.com/glepnir)           | [dashboard.nvim](https://github.com/glepnir/dashboard-nvim)       |
 | Auto-session                          | [Ronnie Magatti](https://github.com/rmagatti)   | [auto-session](https://github.com/rmagatti/auto-session)          |
 | Session-lens                          | [Ronnie Magatti](https://github.com/rmagatti)   | [session-lens](https://github.com/rmagatti/session-lens)          |
+| Gitsigns                              | [Lewis Russell](https://github.com/lewis6991)   | [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)       |
+| Vim Repeat                            | [Tim Pope](https://github.com/tpope)           | [vim-repeat](https://github.com/tpope/vim-repeat)                 |
+| Vim Teal                              | [euclidianAce](https://github.com/euclidianAce), [Hisham Muhammad](https://github.com/hishamhm), [Patrick Desaulniers](https://github.com/pdesaulniers) | [vim-teal](https://github.com/teal-language/vim-teal) |
+| Vim Endwise                           | [Tim Pope](https://github.com/tpope)           | [vim-endwise](https://github.com/tpope/vim-endwise)               |
+| Git Blame                             | [Arshak Aghakaryan](https://github.com/f-person) | [git-blame.nvim](https://github.com/f-person/git-blame.nvim)     |
+| Vim matchup                           | [Andy Massimino](https://github.com/andymass)   | [vim-matchup](https://github.com/andymass/vim-matchup)            |
+| Focus                                 | [Beau](https://github.com/beauwilliams)          | [focus.nvim](https://github.com/beauwilliams/focus.nvim)          |
+| Scrollbar                             | [Xuyuan Pang](https://github.com/Xuyuanp)       | [scrollbar.nvim](https://github.com/Xuyuanp/scrollbar.nvim)       |
+| Nvim Colorizer                        | [Ashkan Kiani](https://github.com/norcalli)      | [nvim-colorizer.lua](https://github.com/norcalli/nvim-colorizer.lua) |
 | 
 
 

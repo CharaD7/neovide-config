@@ -104,7 +104,6 @@ return packer.startup(function(use)
 	}) -- auto screen resizer
 	use("Xuyuanp/scrollbar.nvim") -- Scrollbar
 	use("norcalli/nvim-colorizer.lua") -- Color value highlighting
-	use("bluz71/vim-nightfly-guicolors")
 	use({ "lukas-reineke/indent-blankline.nvim", config = function() end })
 	-- navigation finder operator
 	use("haya14busa/vim-asterisk")
