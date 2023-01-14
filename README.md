@@ -38,7 +38,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 Below is a list of the plugins used and their references (where you can find them on GitHub)
 | Plugin Name                           | Author(s)                                    | Plugin Name and Repository                            |
 |:--------------------------------------|:---------------------------------------------|:------------------------------------------------------|
-| Packer                                | [Wil Thomason](https://github.com/wbthomason) | [packer.nvim](https://github.com/wbthomason/packer.nvim) |
+| Packer                                | [Wil Thomason](https://github.com/wbthomason)  | [packer.nvim](https://github.com/wbthomason/packer.nvim) |
 | Telescope                             | [TJ DeVries](https://github.com/tjdevries), [Simon Hauser](https://github.com/Conni2461), [Fabian David Schmidt](https://github.com/fdschmidt93), [Dicha Zelianivan Arkana](https://github.com/elianiva), [Raphael](https://github.com/glepnir), [kkharji](https://github.com/kkharji), [Dave Lage](https://github.com/rockerBOO) | [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) |
 | Popup                                 | [TJ DeVries](https://github.com/tjdevries)   | [popup.nvim](https://github.com/nvim-lua/popup.nvim)  |
 | Plenary                               | [TJ DeVries](https://github.com/tjdevries)   | [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) |
@@ -49,11 +49,12 @@ Below is a list of the plugins used and their references (where you can find the
 | Treesitter Context                    | [Kiyan](https://github.com/kyazdani42), [ObserverOfTime](https://github.com/ObserverOfTime), [Santos Gallegos](https://github.com/stsewd), [Stephan Seitz](https://github.com/theHamsta), [Thomas Vigouroux](https://github.com/vigoux) | [nvim-treesitter-context](https://github.com/nvim-treesitter/nvim-treesitter-context) |
 | Treesitter Commonlisp                 | [Stephan Seitz](https://github.com/theHamsta) | [nvim-treesitter-commonlisp](https://github.com/theHamsta/nvim-treesitter-commonlisp) |
 | Treesitter Playground                 | [Kiyan](https://github.com/kyazdani42), [ObserverOfTime](https://github.com/ObserverOfTime), [Santos Gallegos](https://github.com/stsewd), [Stephan Seitz](https://github.com/theHamsta), [Thomas Vigouroux](https://github.com/vigoux) | [playground](https://github.com/nvim-treesitter/playground) |
-| Undotree                              | [Ming, Bai](https://github.com/mbbill)       | [undotree](https://github.com/mbbill/undotree)         |
-| Vim Reach                             | [Eric Lau](https://github.com/ericglau)      | [Vim/Neovim Reach](https://github.com/ericglau/vim-reach) |
-| Dap UI                                | [Rónán Carrigan](https://github.com/rcarriga) | [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) |
-| LanguageClient                        | [Junfeng Li](https://github.com/autozimu)    | [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) |
-| FZF                                   | [Junegunn Choi](https://github.com/junegunn) | [fzf](https://github.com/junegunn/fzf)                  |
+| Undotree                              | [Ming, Bai](https://github.com/mbbill)         | [undotree](https://github.com/mbbill/undotree)         |
+| Vim Reach                             | [Eric Lau](https://github.com/ericglau)        | [Vim/Neovim Reach](https://github.com/ericglau/vim-reach) |
+| Dap UI                                | [Rónán Carrigan](https://github.com/rcarriga)  | [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) |
+| LanguageClient                        | [Junfeng Li](https://github.com/autozimu)      | [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) |
+| FZF                                   | [Junegunn Choi](https://github.com/junegunn)   | [fzf](https://github.com/junegunn/fzf)                       |
+| FD                                    | [David Peter](https://github.com/sharkdp)      | [fd](https://github.com/sharkdp/fd)                         |
 
 
 
