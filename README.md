@@ -54,7 +54,10 @@ Below is a list of the plugins used and their references (where you can find the
 | Dap UI                                | [Rónán Carrigan](https://github.com/rcarriga)  | [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui) |
 | FZF                                   | [Junegunn Choi](https://github.com/junegunn)   | [fzf](https://github.com/junegunn/fzf)                       |
 | FD                                    | [David Peter](https://github.com/sharkdp)      | [fd](https://github.com/sharkdp/fd)                         |
-|
+| VPolyglot                             | [Adam Stankiewicz](https://github.com/sheerun) | [vim-polyglot](https://github.com/sheerun/vim-polyglot)       |
+| Filetype                              | [Nathan Thomas](https://github.com/nathom)     | [filetype.nvim](https://github.com/nathom/filetype.nvim)      |
+| Signify                               | [Marco Hinz](https://github.com/mhinz)         | [vim-signify](https://github.com/mhinz/vim-signify)          |
+
 
 
 
