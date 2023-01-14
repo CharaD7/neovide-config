@@ -62,7 +62,7 @@ return packer.startup(function(use)
 	use("nathom/filetype.nvim")
 	use("mhinz/vim-signify")
 	use("MunifTanjim/prettier.nvim")
-	use({ "CRAG666/code_runner.nvim", requires = { "nvim-lua/plenary.nvim" } })
+	use({ "CRAG666/code_runner.nvim" })
 	use({ "numToStr/Comment.nvim" })
 	use("SmiteshP/nvim-navic")
 	use("ryanoasis/vim-devicons") -- optional, for file icon
@@ -131,7 +131,7 @@ return packer.startup(function(use)
 	use({
 		"folke/noice.nvim",
 		event = "VimEnter",
-		config = function ()
+		config = function()
 			local status_ok, noice = pcall(require, 'noice')
 			if not status_ok then return end
 			noice.setup {
@@ -246,8 +246,8 @@ return packer.startup(function(use)
 	use({
 		"krivahtoo/silicon.nvim",
 		run = './install.sh',
-		config = function ()
-			local silicon_status_ok, silicon = pcall(require,'silicon')
+		config = function()
+			local silicon_status_ok, silicon = pcall(require, 'silicon')
 			if not silicon_status_ok then return end
 
 			silicon.setup {

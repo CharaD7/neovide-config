@@ -1,4 +1,4 @@
-<h1 align="center"> Neovide - The no-nonsense IDE </h1>
+<h1 align="center"> Neovide [The no-nonsense IDE] </h1>
 
 This is my custom configuration for Neovide which comes with a nice ColorScheme from Raphael's beautiful [zephyr](https://github.com/glepnir/zephyr-nvim) theme. If you wish to customize Neovide even more, you can visit the [Neovide config page](https://neovide.dev/configuration.html) here, if you wish to install Neovide, you should visit the [Neovide homepage](https://neovide.dev/) to get a download for your preferred OS environment.
 
@@ -57,6 +57,8 @@ Below is a list of the plugins used and their references (where you can find the
 | VPolyglot                             | [Adam Stankiewicz](https://github.com/sheerun) | [vim-polyglot](https://github.com/sheerun/vim-polyglot)       |
 | Filetype                              | [Nathan Thomas](https://github.com/nathom)     | [filetype.nvim](https://github.com/nathom/filetype.nvim)      |
 | Signify                               | [Marco Hinz](https://github.com/mhinz)         | [vim-signify](https://github.com/mhinz/vim-signify)          |
+| Prettier                              | [Munif Tanjim](https://github.com/MunifTanjim)  | [prettier.nvim](https://github.com/MunifTanjim/prettier.nvim) |
+| Code Runner                           | [Diego Aguilar](https://github.com/CRAG666)    | [code_runner.nvim](https://github.com/CRAG666/code_runner.nvim) |
 
 
 
