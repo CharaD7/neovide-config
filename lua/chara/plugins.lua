@@ -224,7 +224,6 @@ return packer.startup(function(use)
 	use("rafamadriz/friendly-snippets")
 	-- Easy to operate
 	use("tpope/vim-eunuch")
-	use('dinhhuy258/git.nvim') -- git inside neovim
 	use("gennaro-tedesco/nvim-peekup") -- View historical copy and delete registers, shortcut keys ""
 	use("voldikss/vim-translator") -- npm install fanyi -g (install translation)
 	use("windwp/nvim-autopairs") -- Automatic symbol matching

@@ -112,7 +112,28 @@ Below is a list of the plugins used and their references (where you can find the
 | Navigator                             | [ray-x](https://github.com/ray-x)               | [navigator.lua](https://github.com/ray-x/navigator.lua)           |
 | Scratch                               | [Matthieu Monsch](https://github.com/mtth)      | [scratch.vim](https://github.com/mtth/scratch.vim)               |
 | Neovim Code Action Menu               | [Thore Strassburg](https://github.com/weilbith)  | [nvim-code-action-menu](https://github.com/weilbith/nvim-code-action-menu) |
-| 
+| LSP Saga                              | [Raphael](https://github.com/glepnir)           | [lspsaga.nvim](https://github.com/glepnir/lspsaga.nvim)           |
+| Mason                                 | [William Boman](https://github.com/williamboman) | [mason.nvim](https://github.com/williamboman/mason.nvim)          |
+| Jupytext                              | [GCBallesteros](https://github.com/GCBallesteros) | [jupytext.vim](https://github.com/GCBallesteros/jupytext.vim)    |
+| Mason LSP Config                      | [William Boman](https://github.com/williamboman) | [mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim) |
+| Nvim Lightbulb                        | [Kieran Siek](https://github.com/kosayoda)       | [nvim-lightbulb](https://github.com/kosayoda/nvim-lightbulb)     |
+| Null-ls                               | [Jose Alvarez](https://github.com/jose-elias-alvarez) | [null-ls.nvim](https://github.com/jose-elias-alvarez/null-ls.nvim) |
+| Cmp Cmdline                           | [hrsh7th](https://github.com/hrsh7th)           | [cmp-cmdline](https://github.com/hrsh7th/cmp-cmdline)             |
+| Friendly Snippets                     | [Rafael Madriz](https://github.com/rafamadriz)   | [friendly-snippets](https://github.com/rafamadriz/friendly-snippets) |
+| Vim Eunuch                            | [Tim Pope](https://github.com/tpope)            | [vim-eunuch](https://github.com/tpope/vim-eunuch)                |
+| Nvim Peekup                           | [Gennaro Tedesco](https://github.com/gennaro-tedesco) | [nvim-peekup](https://github.com/gennaro-tedesco/nvim-peekup) |
+| Vim Translator                        | [最上川](https://github.com/voldikss)             | [vim-translator](https://github.com/voldikss/vim-translator)     |
+| Nvim Autopairs                        | [Trieu Le](https://github.com/windwp)            | [nvim-autopairs](https://github.com/windwp/nvim-autopairs)       |
+| Nvim Autotag                          | [Trieu Le](https://github.com/windwp)            | [nvim-ts-autotag](https://github.com/windwp/nvim-ts-autotag)     |
+| Silicon                               | [Noah Too](https://github.com/krivahtoo)         | [silicon.nvim](https://github.com/krivahtoo/silicon.nvim)        |
+| Surround                              | [Andy Shevchenko](https://github.com/ur4ltz)     | [surround.nvim](https://github.com/ur4ltz/surround.nvim)        |
+| Which Key                             | [Folke Lemaitre](https://github.com/folke)       | [which-key.nvim](https://github.com/folke/which-key.nvim)        |
+| Toggleterm                            | [Akin](https://github.com/akinsho)               | [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)    |
+| Diffview                              | [Sindre T. Strøm](https://github.com/sindrets)   | [diffview.nvim](https://github.com/sindrets/diffview.nvim)       |
+| Nvim GPS                              | [Smitesh Patil](https://github.com/SmiteshP)     | [nvim-gps](https://github.com/SmiteshP/nvim-gps) <font color="indigo">Archived but still used in this config</font> |
+| Nvim TS Rainbow                       | [Chinmay Dalal](https://github.com/p00f)         | [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) <font color="indigo">Archived but still used in this config</font> |
+| TODO Comments                         | [Folke Lemaitre](https://github.com/folke)       | [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) |
+| Vim Fugitive                          | [Tim Pope](https://github.com/tpope)            | [vim-fugitive](https://github.com/tpope/vim-fugitive)                |
 
 
 
