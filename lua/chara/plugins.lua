@@ -168,7 +168,6 @@ return packer.startup(function(use)
 	use({
 		"nvim-neotest/neotest",
 		requires = {
-			"antoinemadec/FixCursorHold.nvim",
 			"nvim-neotest/neotest-python",
 			"nvim-neotest/neotest-plenary",
 			"nvim-neotest/neotest-go",
@@ -219,9 +218,6 @@ return packer.startup(function(use)
 	})
 	use({ "glepnir/lspsaga.nvim", branch = "main" })
 	use("williamboman/mason.nvim")
-	use('kana/vim-textobj-user')
-	use('kana/vim-textobj-line')
-	use('GCBallesteros/vim-textobj-hydrogen')
 	use('GCBallesteros/jupytext.vim')
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")

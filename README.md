@@ -104,7 +104,15 @@ Below is a list of the plugins used and their references (where you can find the
 | LuaSnip                               | [L3MON4D3](https://github.com/L3MON4D3)          | [LuaSnip](https://github.com/L3MON4D3/LuaSnip)                   |
 | Cmp LuaSnip                           | [saadparwaiz1](https://github.com/saadparwaiz1)  | [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)         |
 | Nvim Cmp LSP                          | [hrsh7th](https://github.com/hrsh7th)           | [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)            |
-
+| Telescope Emoji                       | [wongxy](https://github.com/xiyaowong)           | [telescope-emoji.nvim](https://github.com/xiyaowong/telescope-emoji.nvim) |
+| Trouble                               | [Folke Lemaitre](https://github.com/folke)          | [trouble.nvim](https://github.com/folke/trouble.nvim)             |
+| LSP Kind                              | [Andrey Kuznetsov](https://github.com/onsails)   | [lspkind.nvim](https://github.com/onsails/lspkind.nvim)          |
+| Vista                                 | [Liu-Cheng Xu](https://github.com/liuchengxu)   | [vista.vim](https://github.com/liuchengxu/vista.vim)              |
+| Vim Prisma                            | [Harshit Pant](https://github.com/pantharshit00) | [vim-prisma](https://github.com/pantharshit00/vim-prisma)         |
+| Navigator                             | [ray-x](https://github.com/ray-x)               | [navigator.lua](https://github.com/ray-x/navigator.lua)           |
+| Scratch                               | [Matthieu Monsch](https://github.com/mtth)      | [scratch.vim](https://github.com/mtth/scratch.vim)               |
+| Neovim Code Action Menu               | [Thore Strassburg](https://github.com/weilbith)  | [nvim-code-action-menu](https://github.com/weilbith/nvim-code-action-menu) |
+| 
 
 
 
