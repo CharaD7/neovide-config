@@ -134,6 +134,11 @@ Below is a list of the plugins used and their references (where you can find the
 | Nvim TS Rainbow                       | [Chinmay Dalal](https://github.com/p00f)         | [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) <font color="indigo">Archived but still used in this config</font> |
 | TODO Comments                         | [Folke Lemaitre](https://github.com/folke)       | [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) |
 | Vim Fugitive                          | [Tim Pope](https://github.com/tpope)            | [vim-fugitive](https://github.com/tpope/vim-fugitive)                |
+| LSP Zero                              | [Heiker](https://github.com/VonHeikemen)          | [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)     |
+| VIM Be Good                           | [ThePrimeagen](https://github.com/ThePrimeagen)   | [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)        |
+| Nvim Notify                           | [Rónán Carrigan](https://github.com/rcarriga)    | [nvim-notify](https://github.com/rcarriga/nvim-notify)           |
+| Sniprun                               | [Michael B](https://github.com/michaelb)         | [sniprun](https://github.com/michaelb/sniprun)                  |
+| Pretty Fold                           | [Yuriy Artemyev](https://github.com/anuvyklack)  | [pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) |
 
 
 
