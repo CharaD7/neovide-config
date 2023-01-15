@@ -130,8 +130,8 @@ Below is a list of the plugins used and their references (where you can find the
 | Which Key                             | [Folke Lemaitre](https://github.com/folke)       | [which-key.nvim](https://github.com/folke/which-key.nvim)        |
 | Toggleterm                            | [Akin](https://github.com/akinsho)               | [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)    |
 | Diffview                              | [Sindre T. Strøm](https://github.com/sindrets)   | [diffview.nvim](https://github.com/sindrets/diffview.nvim)       |
-| Nvim GPS                              | [Smitesh Patil](https://github.com/SmiteshP)     | [nvim-gps](https://github.com/SmiteshP/nvim-gps) <font color="indigo">Archived but still used in this config</font> |
-| Nvim TS Rainbow                       | [Chinmay Dalal](https://github.com/p00f)         | [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) <font color="indigo">Archived but still used in this config</font> |
+| Nvim GPS                              | [Smitesh Patil](https://github.com/SmiteshP)     | [nvim-gps](https://github.com/SmiteshP/nvim-gps) <font color="yellow" size="10pt">Archived but still used in this config</font> |
+| Nvim TS Rainbow                       | [Chinmay Dalal](https://github.com/p00f)         | [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow) <font color="yellow" size="10pt">Archived but still used in this config</font> |
 | TODO Comments                         | [Folke Lemaitre](https://github.com/folke)       | [todo-comments.nvim](https://github.com/folke/todo-comments.nvim) |
 | Vim Fugitive                          | [Tim Pope](https://github.com/tpope)            | [vim-fugitive](https://github.com/tpope/vim-fugitive)                |
 | LSP Zero                              | [Heiker](https://github.com/VonHeikemen)          | [lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)     |
