@@ -209,7 +209,6 @@ return packer.startup(function(use)
 			require("navigator").setup()
 		end,
 	})
-	use("antoinemadec/FixCursorHold.nvim") -- Fix neovim's CursorHold issues
 	use("mtth/scratch.vim") -- For taking notes (Uses 'gs' to invoke command)
 	use({
 		"weilbith/nvim-code-action-menu",
