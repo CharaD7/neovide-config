@@ -193,7 +193,7 @@ return packer.startup(function(use)
 			{ "tzachar/cmp-tabnine", run = "./install.sh" },
 		},
 	})
-	use("goolord/alpha-nvim")
+	-- use("goolord/alpha-nvim")
 	use("xiyaowong/telescope-emoji.nvim") -- allow looking up and using emojies inside out files
 	-- Grammar tips
 	use("folke/lsp-trouble.nvim")
