@@ -8,7 +8,9 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 
 ---
 
-**NB:** Because of the ColorScheme, my configs will look weird if you just want to use it on neovim, especially for the bufferline and comment highlights.
+**NB:** 
+- Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.
+- Some plugins require other plugins which have not been included in the list as they are included in the plugin call. Hope you understand. :)
 
 <details>
   <summary>The below is an example of what the config looks like on raw neovim.</summary>
@@ -97,6 +99,12 @@ Below is a list of the plugins used and their references (where you can find the
 | Vim Rest Console (VRC)                | [diepm](https://github.com/diepm)               | [vim-rest-console](https://github.com/diepm/vim-rest-console)      |
 | Neotest                               | [Rónán Carrigan](https://github.com/rcarriga)    | [neotest](https://github.com/nvim-neotest/neotest)                |
 | Neodev                                | [Folke Lemaitre](https://github.com/folke)      | [neodev.nvim](https://github.com/folke/neodev.nvim)               |
+| Vim React Snippets                    | [Emmanuel Pilande](https://github.com/epilande)  | [vim-react-snippets](https://github.com/epilande/vim-react-snippets) |
+| Nvim Cmp                              | [hrsh7th](https://github.com/hrsh7th)            | [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)                  |
+| LuaSnip                               | [L3MON4D3](https://github.com/L3MON4D3)          | [LuaSnip](https://github.com/L3MON4D3/LuaSnip)                   |
+| Cmp LuaSnip                           | [saadparwaiz1](https://github.com/saadparwaiz1)  | [cmp_luasnip](https://github.com/saadparwaiz1/cmp_luasnip)         |
+| Nvim Cmp LSP                          | [hrsh7th](https://github.com/hrsh7th)           | [cmp-nvim-lsp](https://github.com/hrsh7th/cmp-nvim-lsp)            |
+
 
 
 
