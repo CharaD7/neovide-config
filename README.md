@@ -93,7 +93,10 @@ Below is a list of the plugins used and their references (where you can find the
 | Vim Illuminate                        | [Adam P. Regasz-Rethy](https://github.com/RRethy) | [vim-illuminate](https://github.com/RRethy/vim-illuminate)       |
 | Telescope Media Files                 | [Simon Hauser](https://github.com/Conni2461), [Dicha Zelianivan Arkana](https://github.com/elianiva), [Fabian David Schmidt](https://github.com/fdschmidt93), [Raphael](https://github.com/glepnir), [kkharji](https://github.com/kkharji), [Dave Lage](https://github.com/rockerBOO), [J DeVries](https://github.com/tjdevries) | [telescope-media-files.nvim](https://github.com/nvim-telescope/telescope-media-files.nvim) |
 | Telescope File Browser                | [Simon Hauser](https://github.com/Conni2461), [Dicha Zelianivan Arkana](https://github.com/elianiva), [Fabian David Schmidt](https://github.com/fdschmidt93), [Raphael](https://github.com/glepnir), [kkharji](https://github.com/kkharji), [Dave Lage](https://github.com/rockerBOO), [J DeVries](https://github.com/tjdevries) | [telescope-file-browser.nvim](https://github.com/nvim-telescope/telescope-file-browser.nvim) |
-| 
+| Nvim Transparent                      | [wongxy](https://github.com/xiyaowong)          | [nvim-transparent](https://github.com/xiyaowong/nvim-transparent)   |
+| Vim Rest Console (VRC)                | [diepm](https://github.com/diepm)               | [vim-rest-console](https://github.com/diepm/vim-rest-console)      |
+| Neotest                               | [Rónán Carrigan](https://github.com/rcarriga)    | [neotest](https://github.com/nvim-neotest/neotest)                |
+| Neodev                                | [Folke Lemaitre](https://github.com/folke)      | [neodev.nvim](https://github.com/folke/neodev.nvim)               |
 
 
 

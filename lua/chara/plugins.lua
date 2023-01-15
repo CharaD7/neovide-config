@@ -129,8 +129,8 @@ return packer.startup(function(use)
 		"folke/noice.nvim",
 		event = "VimEnter",
 		config = function()
-			local status_ok, noice = pcall(require, 'noice')
-			if not status_ok then return end
+			local noice_status_ok, noice = pcall(require, 'noice')
+			if not noice_status_ok then return end
 			noice.setup {
 				lsp = {
 					override = {
@@ -168,8 +168,6 @@ return packer.startup(function(use)
 	use({
 		"nvim-neotest/neotest",
 		requires = {
-			"nvim-lua/plenary.nvim",
-			"nvim-treesitter/nvim-treesitter",
 			"antoinemadec/FixCursorHold.nvim",
 			"nvim-neotest/neotest-python",
 			"nvim-neotest/neotest-plenary",
