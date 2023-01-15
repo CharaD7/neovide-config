@@ -77,7 +77,6 @@ return packer.startup(function(use)
 			require("nvim-tree").setup({})
 		end,
 	})
-	use({ "dsznajder/vscode-es7-javascript-react-snippets", run = "yarn install && yarn compile" })
 	-- for resolving git merge conflicts directly in neovim
 	use({
 		'akinsho/git-conflict.nvim',
@@ -176,7 +175,6 @@ return packer.startup(function(use)
 		}
 	})
 	use("folke/neodev.nvim")
-	use('epilande/vim-react-snippets')
 	use("hrsh7th/nvim-cmp")
 	use("L3MON4D3/LuaSnip")
 	use("saadparwaiz1/cmp_luasnip")
