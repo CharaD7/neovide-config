@@ -214,12 +214,12 @@ return packer.startup(function(use)
 			require("nvim-code-action").setup()
 		end,
 	})
-	use({ "glepnir/lspsaga.nvim", branch = "main" })
+	use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
 	use("williamboman/mason.nvim")
 	use('GCBallesteros/jupytext.vim')
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")
-	use("jose-elias-alvarez/null-ls.nvim") -- snippet related use 'hrsh7th/vim-vsnip'
+	-- use("jose-elias-alvarez/null-ls.nvim") -- snippet related use 'hrsh7th/vim-vsnip'
 	use("hrsh7th/cmp-cmdline")
 	use("rafamadriz/friendly-snippets")
 	-- Easy to operate
@@ -279,24 +279,25 @@ return packer.startup(function(use)
 	use("ThePrimeagen/vim-be-good")
 	use({ "rcarriga/nvim-notify", config = 'vim.notify = require("notify")' })
 	use({ "michaelb/sniprun", run = "bash ./install.sh" })
-	use({'anuvyklack/pretty-fold.nvim', 
+	use({ 'anuvyklack/pretty-fold.nvim',
 		config = function()
-	      local fold_status_ok, fold = pcall(require, 'pretty-fold')
-	      if not fold_status_ok then return end
+			local fold_status_ok, fold = pcall(require, 'pretty-fold')
+			if not fold_status_ok then return end
 
-	      fold.setup {
-		keep_indentation = false,
-		fill_char = '━',
-		sections = {
-		   left = {
-		      '━ ', function() return string.rep('*', vim.v.foldlevel) end, ' ━┫', 'content', '┣'
-		   },
-		   right = {
-		      '┫ ', 'number_of_folded_lines', ': ', 'percentage', ' ┣━━',
-		   }
-		}
-	      }
-	  end})
+			fold.setup {
+				keep_indentation = false,
+				fill_char = '━',
+				sections = {
+					left = {
+						'━ ', function() return string.rep('*', vim.v.foldlevel) end, ' ━┫', 'content', '┣'
+					},
+					right = {
+						'┫ ', 'number_of_folded_lines', ': ', 'percentage', ' ┣━━',
+					}
+				}
+			}
+		end,
+	})
 
 	if PACKER_BOOTSTRAP then
 		require('packer').sync()
