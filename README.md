@@ -15,13 +15,13 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 <details>
   <summary>The below is an example of what the config looks like on raw neovim.</summary>
 
-  ![Screenshot from 2023-01-14 08-46-12](https://user-images.githubusercontent.com/9804780/212464072-26e8fc16-e3b4-4045-9dc5-f5d983937e4f.png)
+  ![Screenshot from 2023-01-16 10-05-54](https://user-images.githubusercontent.com/9804780/212652189-4b9de5ab-0169-4dad-9ed6-baa3a2a59873.png)
 </details>
 
 <details>
   <summary>This is how it looks on Neovide.</summary>
 
-  ![Screenshot from 2023-01-14 08-47-23](https://user-images.githubusercontent.com/9804780/212464125-c328d688-7106-4778-a7ae-2ab923212425.png)
+![Screenshot from 2023-01-16 10-07-32](https://user-images.githubusercontent.com/9804780/212652438-a494c11f-7e35-4692-b7b0-4a4937829efc.png)
 </details>
 
 
