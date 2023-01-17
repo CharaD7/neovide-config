@@ -8,7 +8,7 @@ for _, num in pairs(numbers) do
 end
 
 bufferline.setup {
-  options = {
+	options = {
 		separator_style = "slant",
 		numbers = function(opts)
 			return string.format("%s", opts.raise(opts.ordinal))
@@ -29,7 +29,7 @@ bufferline.setup {
 			return s
 		end,
 		color_icons = true, -- whether or not to add the filetype icon highlights
-		show_buffer_icons = true, -- disable filetype icons for buffers
+		show_buffer_icons = true, -- enable filetype icons for buffers
 		show_buffer_default_icon = true, -- whether or not an unrecognised filetype should show a default icon
 		show_tab_indicators = true,
 		persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
@@ -45,7 +45,6 @@ bufferline.setup {
 				local info = #vim.diagnostic.get(0, { severity = seve.INFO })
 				local hint = #vim.diagnostic.get(0, { severity = seve.HINT })
 
-				-- Was commented to have a clear bufferline background when transparent mode is active.
 				if error ~= 0 then
 					table.insert(result, { text = "  " .. error, guifg = "#EC5241" })
 				end
