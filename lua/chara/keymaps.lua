@@ -125,6 +125,8 @@ map('n', '<leader>sl', ':SessionLoad .sessions<CR>', opts)
 -- BufferLine
 map('n', ';b', ':BufferLinePick<CR>', opts)
 map('n', ';bp', ':BufferLineTogglePin<CR>', opts)
+map('n', 'L', ':BufferLineCloseRight<CR>', opts)
+map('n', 'H', ':BufferLineCloseLeft<CR>', opts)
 map('n', '<Left>', ':BufferLineCyclePrev<CR>', opts)
 map('n', '<Right>', ':BufferLineCycleNext<CR>', opts)
 -- Lspsaga
