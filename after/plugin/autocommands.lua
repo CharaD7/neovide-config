@@ -98,37 +98,6 @@ create({ 'FileChangedShellPost' }, {
   end
 })
 
--- Bufferline background for zephyr colorscheme
-create({ 'VimEnter' }, {
-  callback = function()
-    -- Selected Bufferline
-    vim.cmd [[
-      highlight BufferLineBufferSelected guibg=#262A33 guifg=#FFFFFF
-      highlight BufferLineNumbersSelected guibg=#262A33 guifg=#FFFFFF
-    ]]
-    -- Warning Seleceted BufferLine
-    vim.cmd [[
-      highlight BufferLineWarningSelected guibg=#262A33
-      highlight BufferLineWarningDiagnosticSelected guibg=#262A33 guifg=#EFB839
-    ]]
-    -- Error Selected BufferLine
-    vim.cmd [[
-      highlight BufferLineErrorSelected guibg=#262A33
-      highlight BufferLineErrorDiagnosticSelected guibg=#262A33 guifg=#EC5241
-    ]]
-    -- Info Selected BufferLine
-    vim.cmd [[
-      highlight BufferLinerInfoSelected guibg=#262A33
-      highlight BufferLinerInfoDiagnosticSelected guibg=#262A33 guifg=#7EA9A7
-    ]]
-    -- Hint Selected BufferLine
-    vim.cmd [[
-      highlight BufferLineHintSelected guibg=#262A33
-      highlight BufferLineHintDiagnosticSelected guibg=#262A33 guifg=#A3BA5E
-    ]]
-  end
-})
-
 -- Border color for all floating windows
 create({ 'VimEnter' }, {
   callback = function()
