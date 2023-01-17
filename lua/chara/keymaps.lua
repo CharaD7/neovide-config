@@ -163,8 +163,8 @@ map('i', '<Right>', '<Nop>', opts)
 
 -- VISUAL MODE MAPS --
 -- Line bubbling
-map('v', '<s-a-j>', ':m .-2<CR>==', opts)
-map('v', '<s-a-k>', ':m .+2<CR>==', opts)
+map('v', '<s-a-j>', ":m '>+1<CR>==gv=gv", opts)
+map('v', '<s-a-k>', ":m '<-2<CR>==gv=gv", opts)
 map('v', 'p', '"_dP', opts)
 -- Lspsaga range code action
 map("v", "[a", ":<C-U>Lspsaga range_code_action<CR>", opts)
