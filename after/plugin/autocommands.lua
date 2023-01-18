@@ -234,19 +234,3 @@ create({ 'BufEnter' }, {
     vim.opt.titlestring = get_project_dir() .. ' - nvim'
   end,
 })
-
--- If buffer is emtpy, close
-create({ "BufEnter" }, {
-  pattern = { "" },
-  callback = function()
-    local buf_ft = vim.bo.filetype
-    if buf_ft == "" or buf_ft == nil then
-      vim.cmd [[
-      nnoremap <silent> <buffer> q :close<CR>
-      nnoremap <silent> <buffer> <c-j> j<CR>
-      nnoremap <silent> <buffer> <c-k> k<CR>
-      set nobuflisted
-    ]]
-    end
-  end,
-})
