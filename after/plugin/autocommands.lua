@@ -106,7 +106,12 @@ create({ 'VimEnter' }, {
 })
 
 -- Italic font support for various neovim highlights
-create({ 'VimEnter' }, {
+create({
+  'VimEnter',
+  'BufEnter',
+  'WinEnter',
+  'BufWinEnter'
+}, {
   callback = function()
     -- All Keywords
     vim.cmd [[ autocmd ColorScheme zephyr highlight Keyword gui=italic cterm=italic ]]
