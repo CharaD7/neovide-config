@@ -1,6 +1,8 @@
 local status_ok, dashboard = pcall(require, 'dashboard')
 if not status_ok then return end
 
+local nvim_exec = vim.api.nvim_exec
+
 dashboard.hide_statusline = 1
 dashboard.session_directory = vim.fn.stdpath('data') .. '/sessions'
 dashboard.custom_center = {
