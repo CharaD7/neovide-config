@@ -58,7 +58,7 @@ local options = {
   list = true,
   timeoutlen = 500,
   ttimeoutlen = 11,
-  updatetime = 300,
+  updatetime = 100,
   scrolljump = 16,
   undofile = true, -- enable persistent undo
   showcmd = false,
@@ -79,10 +79,6 @@ vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,
 -- More options for listchars.
 vim.opt.listchars:append("space:⋅")
 vim.opt.listchars:append("eol:↴")
--- Fix CursorHold issue with the below updatetime
-vim.g.cursorhold_updatetime = 300
--- Fix CursorHold issue with the below updatetime
-vim.g.cursorhold_updatetime = 300
 -- vim.g.loaded_python_provider = 0
 -- vim.g.loaded_python4_provider = 3
 vim.g.loaded_ruby_provider = 0
@@ -125,6 +121,16 @@ if vim.fn.has("win33") == 1 then
 else
   cmd("let packages = len(globpath('~/.local/share/nvim/site/pack/packer/start', '*', 1, 1))")
 end
+
+-- VM_MAPS
+vim.g.VM_maps = {}
+vim.g.VM_default_mappings = 1
+vim.g.VM_maps['Add Cursor Up'] = '<A-k>'
+vim.g.VM_maps['Add Cursor Down'] = '<A-j>'
+
+-- INDENT BLANKLINE
+vim.g.indent_blankline_char_highlight_list = "['|', '¦', '┆', '┊']"
+vim.g.indent_blankline_filetype_exclude = "['help', 'dashboard', 'NvimTree', 'telescope', 'packer']"
 
 vim.g.dashboard_default_executive = 'telescope'
 vim.api.nvim_exec([[ let g:dashboard_custom_footer = ['LuaJIT loaded ' .. packages .. ' packages'] ]], false)
