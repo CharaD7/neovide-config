@@ -9,13 +9,20 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 ---
 
 **NB:** 
-- Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.
+- ~~Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.
+- The previous note was ruled out because I noticed the color issue was as a result of my fish terminal using *xterm-256color* instead of *screen-256color*
 - Some plugins require other plugins which have not been included in the list as they are included in the plugin call. Hope you understand. :)
 
 <details>
-  <summary>The below is an example of what the config looks like on raw neovim.</summary>
+  <summary>The below is an example of what the config looked like on raw neovim with xterm-256color default teerminal color.</summary>
 
   ![Screenshot from 2023-01-16 10-05-54](https://user-images.githubusercontent.com/9804780/212652189-4b9de5ab-0169-4dad-9ed6-baa3a2a59873.png)
+</details>
+
+<details>
+  <summary>This is how neovim looks on screen-256color</summary>
+  
+  ![Screenshot from 2023-01-20 04-23-54](https://user-images.githubusercontent.com/9804780/213617598-90b6e864-6e2a-49d5-91bf-5ac101ec5ab9.png)
 </details>
 
 <details>
