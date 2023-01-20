@@ -9,7 +9,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 ---
 
 **NB:** 
-- ~~Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.
+- ~~Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.~~
 - The previous note was ruled out because I noticed the color issue was as a result of my fish terminal using *xterm-256color* instead of *screen-256color*
 - Some plugins require other plugins which have not been included in the list as they are included in the plugin call. Hope you understand. :)
 
