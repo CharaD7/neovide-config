@@ -46,9 +46,9 @@ map('n', '<c-a>', 'ggVG<c-$>', opts)
 map('n', '<s-a-j>', ':m .+1<CR>==', opts)
 map('n', '<s-a-k>', ':m .-2<CR>==', opts)
 -- Save file
-map('n', '<c-s>', ':w!<CR>')
+map('n', '<c-s>', ':w!<CR>', opts)
 -- Delete current buffer
-map('n', '<c-x>', ':bdelete<CR>')
+map('n', '<c-x>', ':bdelete<CR>', opts)
 -- -- Remove newbie crutches in COMMAND mode
 map('n', '<Up>', '<Nop>', opts)
 map('n', '<Down>', '<Nop>', opts)
