@@ -102,6 +102,13 @@ vim.g.neovide_cursor_vfx_particle_phase = 1.5
 vim.g.neovide_cursor_vfx_particle_curl = 1.0
 vim.g.neovide_cursor_unfocused_outline_width = 0.125
 
+-- JUPYTEXT
+vim.g.jupytext_style = 'hydrogen'
+vim.g.jupytext_enable = 1
+vim.g.jupytext_command = 'jupytext'
+vim.g.jupytext_fmt = 'md'
+vim.g.jupytext_to_ipynb_opts = '--to=ipynb --update'
+
 -- BRACEY CONFIGURATIONS
 vim.g.bracey_server_allow_remote_connections = 0
 vim.g.bracey_auto_start_server = 1
