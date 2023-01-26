@@ -1,5 +1,9 @@
+---@diagnostic disable: undefined-global
 local status_ok, iron = pcall(require, 'iron.core')
 if not status_ok then return end
+
+local view_status_ok, view = pcall(require, 'iron.view')
+if not view_status_ok then return end
 
 iron.setup {
   config = {
@@ -39,4 +43,5 @@ iron.setup {
     italic = true
   },
   ignore_blank_lines = true, -- ignore blank lines when sending visual select lines
+  repl_open_cmd = view.center('30%', 20),
 }

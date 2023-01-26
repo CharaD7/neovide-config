@@ -1,8 +1,9 @@
+---@diagnostic disable: undefined-global
 local status_ok, colorizer = pcall(require, 'colorizer')
 if not status_ok then return end
 
 colorizer.setup {
-  DEFAULT_OPTIONS = {
+	DEFAULT_OPTIONS = {
 		RGB = true, -- #RGB hex codes
 		RRGGBB = true, -- #RRGGBB hex codes
 		names = true, -- "Name" codes like Blue

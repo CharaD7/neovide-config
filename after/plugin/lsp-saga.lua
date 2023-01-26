@@ -1,3 +1,4 @@
+---@diagnostic disable: undefined-global
 local status_ok, saga = pcall(require, 'lspsaga')
 if not status_ok then return end
 
@@ -19,7 +20,7 @@ map("n", "<space>wa", ":lua vim.lsp.buf.add_workspace_folder()<CR>", opts)
 map("n", "<space>wr", ":lua vim.lsp.buf.remove_workspace_folder()<CR>", opts)
 map("n", "<space>wl", ":lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
 
-local on_attach = function(client)
+local on_attach = function(client, bufnr)
 	if client.server_capabilities.document_formatting then
 		map("n", "<space>fo", ":lua vim.lsp.buf.formatting()<CR>", opts)
 	end

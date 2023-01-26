@@ -1,8 +1,9 @@
+---@diagnostic disable: undefined-global
 local status_ok, todo_comments = pcall(require, 'todo-comments')
 if not status_ok then return end
 
 todo_comments.setup {
-  signs = true, -- show icons in the signs column
+	signs = true, -- show icons in the signs column
 	sign_priority = 9, -- sign priority
 	-- keywords recognized as todo comments
 	keywords = {

@@ -1,8 +1,9 @@
+---@diagnostic disable: undefined-global
 local status_ok, code_runner = pcall(require, 'code-runner')
 if not status_ok then return end
 
 code_runner.setup {
-  filetype = {
+	filetype = {
 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
 		javascript = "node",
 		python = "python3 -u",

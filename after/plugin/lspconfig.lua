@@ -1,7 +1,14 @@
+---@diagnostic disable: undefined-global
 local status_ok, nvim_lsp = pcall(require, 'lspconfig')
 if not status_ok then return end
 
+local status_ok_navic, navic = pcall(require, 'nvim-navic')
+if not status_ok_navic then return end
+
 local on_attach = function(client, bufnr)
+  if client.server_capabilities.documentSymbolProvider then
+    navic.attach(client, bufnr)
+  end
   -- format on save
   if client.server_capabilities.documentFormattingProvider then
     vim.api.nvim_create_autocmd("BufWritePre", {
@@ -22,7 +29,19 @@ nvim_lsp.tsserver.setup {}
 nvim_lsp.tailwindcss.setup {}
 nvim_lsp.cssls.setup {}
 nvim_lsp.html.setup {}
-nvim_lsp.rust_analyzer.setup {}
+nvim_lsp.rust_analyzer.setup {
+  assist = {
+    importEnforceGranularity = true,
+    importPrefix = "crate"
+  },
+  cargo = {
+    allFeatures = true
+  },
+  checkOnSave = {
+    -- default: `cargo check`
+    command = "clippy"
+  },
+}
 nvim_lsp.graphql.setup {}
 nvim_lsp.volar.setup {}
 nvim_lsp.jsonls.setup {}

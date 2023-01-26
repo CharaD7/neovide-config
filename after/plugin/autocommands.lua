@@ -1,5 +1,5 @@
+---@diagnostic disable: undefined-global
 local create = vim.api.nvim_create_autocmd
-local nvim_exec = vim.api.nvim_exec
 
 -- remove trailing whitespaces
 create({ 'BufWritePre' }, {
@@ -57,14 +57,6 @@ create({ 'BufWritePost' }, {
   },
   callback = function()
     vim.cmd [[ silent! exec '!sass %:p %:r.css' ]]
-  end
-})
-
--- Set all .ipynb files to have python syntax
-create({ 'BufRead' }, {
-  pattern = { '.ipynb' },
-  callback = function()
-    vim.cmd [[ set syntax=python ]]
   end
 })
 
@@ -187,14 +179,6 @@ create({ 'WinLeave', 'BufWinLeave', 'FocusLost' }, {
   callback = function()
     vim.cmd [[ silent! lua require('scrollbar').clear() ]]
   end
-})
-
--- Check time on buffer window enter
-create({ 'BufWinEnter' }, {
-  pattern = { '*' },
-  callback = function()
-    vim.cmd 'checktime'
-  end,
 })
 
 -- Unlink current luasnipet
