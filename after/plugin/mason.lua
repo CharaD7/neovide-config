@@ -5,7 +5,6 @@ local status_ok_mason_lsp, lspconfig = pcall(require, 'mason-lspconfig')
 if not status_ok_mason_lsp then return end
 
 mason.setup {
-	automatic_installation = true,
 	ui = {
 		icons = {
 			package_installed = "✓",
@@ -18,8 +17,12 @@ mason.setup {
 -- Lspconfig setup
 local servers = {
 	"sumneko_lua",
-	"html",
+	"html-lsp",
+	"emmet-ls",
+	"black",
+	"blackd-client",
 	"marksman",
+	"debugpy",
 	"intelephense",
 	"solidity",
 	"sqlls",
@@ -31,14 +34,14 @@ local servers = {
 	"ruby_ls",
 	"prismals",
 	"jsonls",
-	"volar",
+	"vue-language-server",
 	"rust_analyzer",
 	"tsserver",
 	"pyright",
 	"astro",
 	"bashls",
 	"clangd",
-	"cssmodules_ls",
+	"css-lsp",
 	"dockerls",
 	"eslint",
 	"emmet_ls",
