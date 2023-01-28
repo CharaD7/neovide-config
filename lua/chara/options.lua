@@ -102,13 +102,6 @@ vim.g.neovide_cursor_vfx_particle_phase = 1.5
 vim.g.neovide_cursor_vfx_particle_curl = 1.0
 vim.g.neovide_cursor_unfocused_outline_width = 0.125
 
--- JUPYTEXT
-vim.g.jupytext_style = 'hydrogen'
-vim.g.jupytext_enable = 1
-vim.g.jupytext_command = 'jupytext'
-vim.g.jupytext_fmt = 'md'
-vim.g.jupytext_to_ipynb_opts = '--to=ipynb --update'
-
 -- BRACEY CONFIGURATIONS
 vim.g.bracey_server_allow_remote_connections = 0
 vim.g.bracey_auto_start_server = 1
@@ -141,10 +134,6 @@ vim.g.indent_blankline_filetype_exclude = "['help', 'dashboard', 'NvimTree', 'te
 
 vim.g.dashboard_default_executive = 'telescope'
 vim.api.nvim_exec([[ let g:dashboard_custom_footer = ['LuaJIT loaded ' .. packages .. ' packages'] ]], false)
-
--- JUPYTEXT
-vim.g.jupytext_fmt = 'py'
-vim.g.jupytext_style = 'hydrogen'
 
 for k, v in pairs(options) do
   vim.opt[k] = v
