@@ -42,9 +42,8 @@ local options = {
   incsearch = true, -- enable incremental search
   inccommand = "split",
   smarttab = true,
-  foldmethod = "expr",
+  foldmethod = "indent",
   foldlevel = indent,
-  foldexpr = "getline(v:lnum)=~'^\\s*$'&&getline(v:lnum+1)=~'\\S'?'<1':1",
   foldclose = "all",
   breakindent = true,
   lbr = true,
@@ -76,6 +75,8 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.fillchars.eob = " "
 vim.opt.shortmess:append "c"
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal"
+-- PRETTY FOLD
+vim.opt.fillchars:append('fold:•')
 -- More options for listchars.
 vim.opt.listchars:append("space:⋅")
 vim.opt.listchars:append("eol:↴")
