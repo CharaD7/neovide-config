@@ -82,11 +82,6 @@ map('n', ';ts', ':Telescope treesitter<CR>', opts)
 map('n', ';tc', ':Telescope commands<CR>', opts)
 map('n', ';tm', ':Telescope marks<CR>', opts)
 map('n', ';te', ':Telescope emoji<CR>', opts)
--- Iron commands
-map('n', ';is', ':IronRepl<CR>', opts)
-map('n', ';ir', ':IronRestart<CR>', opts)
-map('n', ';if', ':IronFocus<CR>', opts)
-map('n', ';ih', ':IronHide<CR>', opts)
 -- DapUi commands
 map('n', '<F5>', ':lua require("dap").continue()<CR>', opts) -- Press f5 to debug
 map('n', '<leader>bb', ':lua require("dap").toggle_breakpoint()<CR>', opts) -- Press CTRL + b to toggle regular breakpoint
@@ -112,11 +107,6 @@ map("n", "<leader>nN", ":lua require('neotest').run.run({strategy = 'dap'})<CR>"
 map("n", "<leader>no", ":lua require('neotest').output.open({ enter = true })<CR>", opts)
 map("n", "<leader>nS", ":lua require('neotest').run.stop()<CR>", opts)
 map("n", "<leader>ns", ":lua require('neotest').summary.toggle()<CR>", opts)
--- Iron
-map('n', '<leader>ir', ':IronRepl<CR>', opts)
-map('n', '<leader>is', ':IronRestart<CR>', opts)
-map('n', '<leader>if', ':IronFocus<CR>', opts)
-map('n', '<leader>ih', ':IronHide<CR>', opts)
 -- NvimTree
 map('n', '<leader>n', ':NvimTreeToggle<CR>', opts)
 -- Messages
