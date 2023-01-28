@@ -216,7 +216,6 @@ return packer.startup(function(use)
 	})
 	use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
 	use("williamboman/mason.nvim")
-	use('hkupty/iron.nvim')
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")
 	-- use("jose-elias-alvarez/null-ls.nvim") -- snippet related use 'hrsh7th/vim-vsnip'
