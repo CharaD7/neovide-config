@@ -91,7 +91,7 @@ return packer.startup(function(use)
 	use("rmagatti/session-lens")
 	use({ "lewis6991/gitsigns.nvim" })
 	use("tpope/vim-repeat")
-	use('teal-language/vim-teal')
+	-- use('teal-language/vim-teal')
 	use("tpope/vim-endwise")
 	use("f-person/git-blame.nvim") -- show git message
 	use("andymass/vim-matchup") -- Provides language-specific % style pair and tuple matching, highlighting, and text-objects
@@ -216,9 +216,7 @@ return packer.startup(function(use)
 	})
 	use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
 	use("williamboman/mason.nvim")
-	use('GCBallesteros/vim-textobj-hydrogen')
 	use('hkupty/iron.nvim')
-	use('GCBallesteros/jupytext.vim')
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")
 	-- use("jose-elias-alvarez/null-ls.nvim") -- snippet related use 'hrsh7th/vim-vsnip'
