@@ -278,25 +278,7 @@ return packer.startup(function(use)
 	use("ThePrimeagen/vim-be-good")
 	use({ "rcarriga/nvim-notify", config = 'vim.notify = require("notify")' })
 	use({ "michaelb/sniprun", run = "bash ./install.sh" })
-	use({ 'anuvyklack/pretty-fold.nvim',
-		config = function()
-			local fold_status_ok, fold = pcall(require, 'pretty-fold')
-			if not fold_status_ok then return end
-
-			fold.setup {
-				keep_indentation = false,
-				fill_char = '━',
-				sections = {
-					left = {
-						'━ ', function() return string.rep('*', vim.v.foldlevel) end, ' ━┫', 'content', '┣'
-					},
-					right = {
-						'┫ ', 'number_of_folded_lines', ': ', 'percentage', ' ┣━━',
-					}
-				}
-			}
-		end,
-	})
+	use('anuvyklack/pretty-fold.nvim')
 
 	if PACKER_BOOTSTRAP then
 		require('packer').sync()
