@@ -123,12 +123,6 @@ else
   cmd("let packages = len(globpath('~/.local/share/nvim/site/pack/packer/start', '*', 1, 1))")
 end
 
--- VM_MAPS
-vim.g.VM_maps = {}
-vim.g.VM_default_mappings = 1
-vim.g.VM_maps['Add Cursor Up'] = '<A-k>'
-vim.g.VM_maps['Add Cursor Down'] = '<A-j>'
-
 -- INDENT BLANKLINE
 vim.g.indent_blankline_char_highlight_list = "['|', '¦', '┆', '┊']"
 vim.g.indent_blankline_filetype_exclude = "['help', 'dashboard', 'NvimTree', 'telescope', 'packer']"
