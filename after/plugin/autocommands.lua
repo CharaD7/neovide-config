@@ -161,6 +161,18 @@ create({ 'BufRead' }, {
   end
 })
 
+-- VM_MAPS
+create({ 'VimEnter' }, {
+  callback = function()
+    vim.cmd [[
+      let g:VM_MAPS = {}
+      let g:VM_default_mappings = 1
+      let g:VM_maps['Add Cursor Up'] = '<A-k>'
+      let g:VM_maps['Add Cursor Down'] = '<A-j>'
+    ]]
+  end
+})
+
 -- Configure Scrollbar
 -- When to show
 create({
