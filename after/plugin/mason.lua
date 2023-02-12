@@ -17,7 +17,7 @@ mason.setup {
 
 -- Lspconfig setup
 local servers = {
-	"sumneko_lua",
+	"lua_ls",
 	"html",
 	"emmet_ls",
 	"vuels",
