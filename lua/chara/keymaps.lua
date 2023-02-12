@@ -74,7 +74,7 @@ map('n', ';bc', ':Telescope git_bcommits<CR>', opts) -- lists git commits with d
 map('n', ';bs', ':Telescope git_status<CR>', opts) -- lists current changes per file with diff preview and add action
 map('n', ';br', ':Telescope git_branches<CR>', opts) -- lists alll branches with log preview, checkout action <cr>, track action <c-t> and rebase action <c-r>
 map('n', ';st', ':Telescope git_stash<CR>', opts) -- lists stash items in current repository with ability to apply them on <cr>
-map('n', ';fg', ':Telescope live_grep<CR>', opts)
+map('n', ';fg', ':Telescope live_grep grep_open_files=true<CR>', opts)
 map('n', ';gs', ':Telescope grep_string<CR>', opts)
 map('n', ';bb', ':Telescope buffers<CR>', opts)
 map('n', ';fh', ':Telescope help_tags<CR>', opts)
