@@ -8,9 +8,9 @@ if not status_ok_mason_lsp then return end
 mason.setup {
 	ui = {
 		icons = {
-			package_installed = "✓",
-			package_pending = "➜",
-			package_uninstalled = "✗"
+			package_installed = "",
+			package_pending = "",
+			package_uninstalled = ""
 		}
 	}
 }
