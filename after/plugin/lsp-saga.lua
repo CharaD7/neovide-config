@@ -5,8 +5,10 @@ if not status_ok then return end
 local status_ok_notify, notify = pcall(require, 'notify')
 if not status_ok_notify then return end
 
-saga.init_lsp_saga {
-	border_style = "rounded",
+saga.setup {
+	ui = {
+		border = 'rounded',
+	},
 }
 
 notify.setup {}
