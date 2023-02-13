@@ -8,6 +8,10 @@ if not status_ok_notify then return end
 saga.setup {
 	ui = {
 		border = 'rounded',
+		error_sign = "",
+		warn_sign = "",
+		hint_sign = "",
+		info_sign = "",
 	},
 }
 
