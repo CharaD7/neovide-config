@@ -18,7 +18,7 @@ mason.setup {
 
 -- Lspconfig setup
 local servers = {
-	"lua-language-server",
+	"lua_ls",
 	"html",
 	"emmet_ls",
 	"vuels",
