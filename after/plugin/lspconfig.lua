@@ -47,8 +47,7 @@ nvim_lsp.jsonls.setup {}
 nvim_lsp.dockerls.setup {}
 nvim_lsp.zk.setup {}
 nvim_lsp.prismals.setup {}
--- nvim_lsp.pyright.setup {},
-nvim_lsp.lua_ls.setup {}
+nvim_lsp.pyright.setup {}
 nvim_lsp.solidity.setup {}
 nvim_lsp.yamlls.setup {}
 nvim_lsp.teal_ls.setup {}
