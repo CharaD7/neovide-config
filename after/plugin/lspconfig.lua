@@ -25,7 +25,6 @@ nvim_lsp.tsserver.setup {
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   cmd = { "typescript-language-server", "--stdio" },
 }
-nvim_lsp.tsserver.setup {}
 nvim_lsp.tailwindcss.setup {}
 nvim_lsp.cssls.setup {}
 nvim_lsp.html.setup {}
