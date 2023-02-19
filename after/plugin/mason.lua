@@ -24,7 +24,7 @@ local servers = {
 	"vuels",
 	"marksman",
 	"intelephense",
-	"solidity",
+	"solang",
 	"sqlls",
 	"stylelint_lsp",
 	"svelte",

@@ -12,6 +12,7 @@ saga.setup {
 		warn_sign = "",
 		hint_sign = "",
 		info_sign = "",
+		diagnostic = "",
 	},
 }
 
