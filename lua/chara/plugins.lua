@@ -215,7 +215,7 @@ return packer.startup(function(use)
 		end,
 	})
 	-- use({ "glepnir/lspsaga.nvim", branch = "main" })
-	-- use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
+	use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")
