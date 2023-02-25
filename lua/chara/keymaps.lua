@@ -134,6 +134,7 @@ map("n", "[t", ":Lspsaga outline<CR>", opts)
 map("n", "[n", ":Lspsaga rename<CR>", opts)
 map("n", "[N", ":Lspsaga rename ++project<CR>", opts)
 map("n", "gd", ":Lspsaga preview_definition<CR>", opts)
+map("n", "<A-d>", ":Lspsaga term_toggle<CR>", opts)
 map("n", "<leader>cd", ":Lspsaga show_line_diagnostics<CR>", opts)
 map("n", "<leader>cd", ":Lspsaga show_cursor_diagnostics<CR>", opts)
 map("n", "[e", ":Lspsaga diagnostic_jump_next<CR>", opts)
@@ -144,6 +145,10 @@ end, opts)
 map("n", "]E", function()
 	require("lspsaga.diagnostic").goto_next({ severity = vim.diagnostic.severity.ERROR })
 end, opts)
+-- Nvim workspace
+map("n", "<space>wa", ":lua vim.lsp.buf.add_workspace_folder()<CR>", opts)
+map("n", "<space>wr", ":lua vim.lsp.buf.remove_workspace_folder()<CR>", opts)
+map("n", "<space>wl", ":lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
 -- Toggleterm
 map('n', '<leader>tf', ':Toggleterm<CR>', opts)
 map('n', '<leader>th', ':Toggleterm direction=horizontal<CR>', opts)
@@ -178,6 +183,8 @@ map('t', '<c-h>', '<c-w>h', term_opts)
 map('t', '<c-j>', '<c-w>j', term_opts)
 map('t', '<c-k>', '<c-w>k', term_opts)
 map('t', '<c-l>', '<c-w>l', term_opts)
+-- toggle lspsaga floating term
+map("t", "<A-d>", ":Lspsaga term_toggle<CR>", opts)
 
 -- COMMAND MODE MAPS --
 -- -- Remove newbie crutches in COMMAND mode
