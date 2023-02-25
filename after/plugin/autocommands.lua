@@ -41,12 +41,21 @@ create({ 'DiagnosticChanged' }, {
       })
     end
 
+    sign({ name = 'DiagnosticSign', text = '' })
     sign({ name = 'DiagnosticSignError', text = ' ' })
     sign({ name = 'DiagnosticSignWarn', text = ' ' })
     sign({ name = 'DiagnosticSignInfo', text = ' ' })
     sign({ name = 'DiagnosticSignHint', text = ' ' })
   end
 })
+
+-- Show diagnostic in floating window on hover
+create({ 'CursorHold', 'CursorHoldI' }, {
+  callback = function()
+    vim.cmd [[ lua vim.diagnostic.open_float(nil, { focus=false }) ]]
+  end
+})
+
 -- Set all .rsh files to use js syntax and highlighting
 create({ 'BufRead' }, {
   pattern = { '.rsh' },
