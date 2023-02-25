@@ -6,11 +6,11 @@ local status_ok_notify, notify = pcall(require, 'notify')
 if not status_ok_notify then return end
 
 saga.setup {
-  ui = {
-    border = 'rounded',
-  },
   code_action = {
     show_server_name = true
+  },
+  ui = {
+    border = 'rounded',
   },
   outline = {
     win_width = 20,

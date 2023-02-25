@@ -121,18 +121,6 @@ create({ 'VimEnter' }, {
   end
 })
 
--- Lspsaga outline to always show
---create({
---  'VimEnter',
---  'BufEnter',
---  'WinEnter',
---  'BufWinEnter'
---}, {
---  callback = function()
---    vim.cmd [[ lua require('lspsaga').outline() ]]
---  end
---})
-
 -- Italic font support for various neovim highlights
 create({
   'VimEnter',
