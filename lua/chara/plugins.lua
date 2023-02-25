@@ -103,7 +103,11 @@ return packer.startup(function(use)
 	}) -- auto screen resizer
 	use("Xuyuanp/scrollbar.nvim") -- Scrollbar
 	use("norcalli/nvim-colorizer.lua") -- Color value highlighting
-	use({ "lukas-reineke/indent-blankline.nvim", config = function() end })
+	use({
+		"lukas-reineke/indent-blankline.nvim",
+		config = function()
+		end
+	})
 	-- navigation finder operator
 	use("haya14busa/vim-asterisk")
 	use("nvim-lualine/lualine.nvim")
@@ -214,8 +218,13 @@ return packer.startup(function(use)
 			require("nvim-code-action").setup()
 		end,
 	})
-	-- use({ "glepnir/lspsaga.nvim", branch = "main" })
-	use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
+	use({ "glepnir/lspsaga.nvim", branch = "main",
+		config = function ()
+			require('lspsaga').setup({})
+		end
+	})
+	-- use({ "glepnir/lspsaga.nvim", branch = "main", commit = "b7b4777" })
+	use("tomlion/vim-solidity")
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 	use("kosayoda/nvim-lightbulb")
@@ -228,6 +237,7 @@ return packer.startup(function(use)
 	use("voldikss/vim-translator") -- npm install fanyi -g (install translation)
 	use("windwp/nvim-autopairs") -- Automatic symbol matching
 	use("windwp/nvim-ts-autotag")
+	use("chaoren/vim-wordmotion")
 	-- for saving code snapshots
 	use({
 		"krivahtoo/silicon.nvim",
