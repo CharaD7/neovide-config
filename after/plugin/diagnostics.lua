@@ -1,11 +1,13 @@
+local icons = require "chara.icons"
+
 local function format_diagnostic(diagnostic)
-  local icon = " "
+  local icon = icons.diagnostics.Error
   if diagnostic.severity == vim.diagnostic.severity.WARN then
-    icon = " "
+    icon = icons.diagnostics.Warning
   elseif diagnostic.severity == vim.diagnostic.severity.INFO then
-    icon = " "
+    icon = icons.diagnostics.Information
   elseif diagnostic.severity == vim.diagnostic.severity.HINT then
-    icon = " "
+    icon = icons.diagnostics.Hint
   end
 
   local message = string.format('%s %s', icon, diagnostic.message)
@@ -20,6 +22,7 @@ end
 
 
 vim.diagnostic.config({
+  update_in_insert = false,
   virtual_text = false,
   severity_sort = true,
   float = {

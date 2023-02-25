@@ -9,8 +9,6 @@ create({ 'BufWritePre' }, {
     vim.cmd [[ %s/\n\+\%$//e ]]
   end
 })
--- vim.cmd [[ autocmd BufWritePre * %s/\s\+$//e ]]
--- vim.cmd [[ autocmd BufWritePre * %s/\n\+\%$//e ]]
 
 -- Alpha Dashboard
 create({ 'User' }, {
@@ -33,6 +31,7 @@ create({ 'BufRead' }, {
 -- Configuration for vim diagnostics
 create({ 'DiagnosticChanged' }, {
   callback = function()
+    local icons = require "chara.icons"
     local sign = function(opts)
       vim.fn.sign_define(opts.name, {
         texthl = opts.name,
@@ -41,11 +40,11 @@ create({ 'DiagnosticChanged' }, {
       })
     end
 
-    sign({ name = 'DiagnosticSign', text = '' })
-    sign({ name = 'DiagnosticSignError', text = ' ' })
-    sign({ name = 'DiagnosticSignWarn', text = ' ' })
-    sign({ name = 'DiagnosticSignInfo', text = ' ' })
-    sign({ name = 'DiagnosticSignHint', text = ' ' })
+    sign({ name = 'DiagnosticSign', text = icons.ui.Gear })
+    sign({ name = 'DiagnosticSignError', text = icons.diagnostics.Error })
+    sign({ name = 'DiagnosticSignWarn', text = icons.diagnostics.Warning })
+    sign({ name = 'DiagnosticSignInfo', text = icons.diagnostics.Information })
+    sign({ name = 'DiagnosticSignHint', text = icons.diagnostics.Hint })
   end
 })
 

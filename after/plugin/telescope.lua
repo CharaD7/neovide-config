@@ -5,14 +5,7 @@ if not status_ok then return end
 local status_ok_actions, actions = pcall(require, 'telescope.actions')
 if not status_ok_actions then return end
 
-local status_ok_builtin, builtin = pcall(require, 'telescope.builtin')
-if not status_ok_builtin then return end
-
 local fb_actions = telescope.extensions.file_browser.actions
-
-local function telescope_buffer_dir()
-  return vim.fn.expand('%:p:h')
-end
 
 telescope.setup {
   defaults = {

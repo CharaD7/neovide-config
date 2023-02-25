@@ -2,7 +2,7 @@
 local status_ok, symbols_outline = pcall(require, "symbols-outline")
 if not status_ok then return end
 
-local icons = require "user.icons"
+local icons = require "chara.icons"
 local opts = {
   highlight_hovered_item = true,
   show_guides = true,
