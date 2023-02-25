@@ -37,7 +37,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 - Font used: [FiraCode iScript](https://github.com/kencrocken/FiraCodeiScript).
 - Font ligatures and icons capability: [NerdFonts](https://github.com/ryanoasis/nerd-fonts).
 - Plugin manager used: [Packer](https://github.com/wbthomason/packer.nvim).
-- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) version: v0.9.0-dev-176+g1fe31651b
+- [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) version: v0.9.0-dev-1028+gd422fc827
 - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) Build Type: RelWithDebInfo
 - LuaJit version: 2.1.0-beta3
 - This config runs neovide in fullscreen mode.
