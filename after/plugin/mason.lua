@@ -25,6 +25,7 @@ local servers = {
 	"marksman",
 	"intelephense",
 	"solang",
+	"jdtls",
 	"sqlls",
 	"stylelint_lsp",
 	"svelte",

@@ -6,14 +6,15 @@ local status_ok_notify, notify = pcall(require, 'notify')
 if not status_ok_notify then return end
 
 saga.setup {
-	ui = {
-		border = 'rounded',
-		error_sign = "",
-		warn_sign = "",
-		hint_sign = "",
-		info_sign = "",
-		diagnostic = "",
-	},
+  ui = {
+    border = 'rounded',
+  },
+  code_action = {
+    show_server_name = true
+  },
+  outline = {
+    win_width = 20,
+  },
 }
 
 notify.setup {}
@@ -23,19 +24,15 @@ local opts = { silent = true, noremap = true }
 local map = vim.keymap.set
 
 -- See `:help vim.lsp.*` for documentation on any of the below functions
-map("n", "<space>wa", ":lua vim.lsp.buf.add_workspace_folder()<CR>", opts)
-map("n", "<space>wr", ":lua vim.lsp.buf.remove_workspace_folder()<CR>", opts)
-map("n", "<space>wl", ":lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
 
 local on_attach = function(client, bufnr)
-	if client.server_capabilities.document_formatting then
-		map("n", "<space>fo", ":lua vim.lsp.buf.formatting()<CR>", opts)
-	end
-	if client.server_capabilities.document_range_formatting then
-		map("v", "<space>fo", ":lua vim.lsp.buf.range_formatting()<CR>", opts)
-	end
+  if client.server_capabilities.document_formatting then
+    map("n", "<space>fo", ":lua vim.lsp.buf.formatting()<CR>", opts)
+  end
+  if client.server_capabilities.document_range_formatting then
+    map("v", "<space>fo", ":lua vim.lsp.buf.range_formatting()<CR>", opts)
+  end
 
-	local msg = string.format("Language server %s started!", client.name)
-	notify(msg, "info", { title = "LSP Notify", timeout = 1001 })
-
+  local msg = string.format("Language server %s started!", client.name)
+  notify(msg, "info", { title = "LSP Notify", timeout = 1001 })
 end

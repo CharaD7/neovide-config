@@ -30,7 +30,23 @@ create({ 'BufRead' }, {
   end
 })
 
+-- Configuration for vim diagnostics
+create({ 'DiagnosticChanged' }, {
+  callback = function()
+    local sign = function(opts)
+      vim.fn.sign_define(opts.name, {
+        texthl = opts.name,
+        text = opts.text,
+        numhl = ''
+      })
+    end
 
+    sign({ name = 'DiagnosticSignError', text = ' ' })
+    sign({ name = 'DiagnosticSignWarn', text = ' ' })
+    sign({ name = 'DiagnosticSignInfo', text = ' ' })
+    sign({ name = 'DiagnosticSignHint', text = ' ' })
+  end
+})
 -- Set all .rsh files to use js syntax and highlighting
 create({ 'BufRead' }, {
   pattern = { '.rsh' },
@@ -96,6 +112,18 @@ create({ 'VimEnter' }, {
     vim.cmd [[ highlight FloatBorder guifg=#61AFEF ]]
   end
 })
+
+-- Lspsaga outline to always show
+--create({
+--  'VimEnter',
+--  'BufEnter',
+--  'WinEnter',
+--  'BufWinEnter'
+--}, {
+--  callback = function()
+--    vim.cmd [[ lua require('lspsaga').outline() ]]
+--  end
+--})
 
 -- Italic font support for various neovim highlights
 create({
