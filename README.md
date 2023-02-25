@@ -8,7 +8,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 
 ---
 
-**NB:** 
+**NB:**
 - ~~Because of the ColorScheme, this config looks weird if you just want to use it on neovim, especially for the bufferline and comment highlights.~~
 - The previous note was ruled out because I noticed the color issue was as a result of my fish terminal using *xterm-256color* instead of *screen-256color*
 - Some plugins require other plugins which have not been included in the list as they are included in the plugin call. Hope you understand. :)
@@ -21,7 +21,7 @@ Installation may seem difficult sometimes so it is easier to follor the [step-by
 
 <details>
   <summary>This is how neovim looks on screen-256color</summary>
-  
+
   ![Screenshot from 2023-01-20 04-23-54](https://user-images.githubusercontent.com/9804780/213617598-90b6e864-6e2a-49d5-91bf-5ac101ec5ab9.png)
 </details>
 
@@ -145,6 +145,7 @@ Below is a list of the plugins used and their references (where you can find the
 | VIM Be Good                           | [ThePrimeagen](https://github.com/ThePrimeagen)   | [vim-be-good](https://github.com/ThePrimeagen/vim-be-good)        |
 | Nvim Notify                           | [Rónán Carrigan](https://github.com/rcarriga)    | [nvim-notify](https://github.com/rcarriga/nvim-notify)           |
 | Sniprun                               | [Michael B](https://github.com/michaelb)         | [sniprun](https://github.com/michaelb/sniprun)                  |
+| Vim Wordmotion                        | [Chaoren Lin](https://github.com/chaoren)         | [vim-wordmotion](https://github.com/chaoren/vim-wordmotion)     |
 | Pretty Fold                           | [Yuriy Artemyev](https://github.com/anuvyklack)  | [pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) |
 
 
