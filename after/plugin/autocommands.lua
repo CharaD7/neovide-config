@@ -130,13 +130,13 @@ create({
 }, {
   callback = function()
     -- All Keywords
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Keyword gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Keyword gui=underdotted cterm=underdotted ]]
     -- All Comments
     vim.cmd [[ autocmd ColorScheme zephyr highlight Comment gui=italic cterm=italic ]]
     -- All Functions
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Function gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Function gui=bold cterm=bold ]]
     -- All Constants
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Constant gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Constant gui=underline cterm=underline ]]
     -- All Exceptions
     vim.cmd [[ autocmd ColorScheme zephyr highlight Exception gui=italic cterm=italic ]]
     -- All Types
@@ -144,13 +144,13 @@ create({
     -- All Labels
     vim.cmd [[ autocmd ColorScheme zephyr highlight Label gui=italic cterm=italic ]]
     -- All Includes
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Include gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Include gui=undercurl cterm=undercurl ]]
     -- All StorageClasses
-    vim.cmd [[ autocmd ColorScheme zephyr highlight StorageClass gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight StorageClass gui=underdashed cterm=underdashed ]]
     -- All Structures
     vim.cmd [[ autocmd ColorScheme zephyr highlight Structure gui=italic cterm=italic ]]
     -- All Typedefs
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Typedef gui=italic cterm=italic ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Typedef gui=underdouble cterm=underdouble ]]
     -- All SpecialComments
     vim.cmd [[ autocmd ColorScheme zephyr highlight SpecialComment gui=italic cterm=italic ]]
     -- All PreProcs
