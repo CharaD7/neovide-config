@@ -5,6 +5,8 @@ if not status_ok then return end
 local status_ok_luasnip, luasnip = pcall(require, 'luasnip')
 if not status_ok_luasnip then return end
 
+local icons = require('chara.icons')
+
 cmp.setup {
 	completion = {
 		completeopt = "menu,menuone,noselect",
@@ -77,18 +79,19 @@ cmp.setup {
 	cmp.setup.cmdline(":", {
 		mapping = cmp.mapping.preset.cmdline(),
 		sources = cmp.config.sources({
-			{ name = "path" },
-		},
+				{ name = "path" },
+			},
 			{
 				{ name = "cmdline" },
 			}),
 	}),
 
 	formatting = {
-		fields = { 'abbr' },
-		format = function(entry, vim_item)
-			vim_item.kind = require("lspkind").presets.default[vim_item.kind] .. " " .. vim_item.kind
-			vim_item.menu = ({
+		fields = { 'kind', 'abbr', 'menu' },
+		max_width = 0,
+		format = function(entry, item)
+			item.kind = string.format('%s', icons[item.kind])
+			item.menu = ({
 				path = "   [Path]",
 				buffer = "   [Buffer]",
 				nvim_lsp = "   [LSP]",
@@ -98,11 +101,20 @@ cmp.setup {
 				spell = "   [Spell]",
 				emoji = " ﲃ  [Emoji]",
 				cmp_tabnine = "⦿   [Tn]",
+				nvim_lua = '[API]',
 			})[entry.source.name]
-			return vim_item
+			return item
 		end,
 	},
+	duplicates = {
+		buffer = 1,
+		path = 1,
+		nvim_lsp = 0,
+		luasnip = 1,
+	},
+	duplicates_default = 0,
 	experimental = {
-		ghost_text = true,
+		ghost_text = false,
+		native_menu = false,
 	},
 }

@@ -144,7 +144,7 @@ create({
     -- All Labels
     vim.cmd [[ autocmd ColorScheme zephyr highlight Label gui=italic cterm=italic ]]
     -- All Includes
-    vim.cmd [[ autocmd ColorScheme zephyr highlight Include gui=undercurl cterm=undercurl ]]
+    vim.cmd [[ autocmd ColorScheme zephyr highlight Include gui=underdashed cterm=underdashed ]]
     -- All StorageClasses
     vim.cmd [[ autocmd ColorScheme zephyr highlight StorageClass gui=underdashed cterm=underdashed ]]
     -- All Structures
