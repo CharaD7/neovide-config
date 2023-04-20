@@ -50,7 +50,7 @@ return packer.startup(function(use)
 		config = function()
 			require("treesitter-context").setup({})
 		end,
-	}) -- Shows the current function/class as float window at the top of the window
+	})                                         -- Shows the current function/class as float window at the top of the window
 	use("theHamsta/nvim-treesitter-commonlisp") -- highlight functions
 	use("nvim-treesitter/playground")
 	use("mbbill/undotree")
@@ -94,14 +94,14 @@ return packer.startup(function(use)
 	-- use('teal-language/vim-teal')
 	use("tpope/vim-endwise")
 	use("f-person/git-blame.nvim") -- show git message
-	use("andymass/vim-matchup") -- Provides language-specific % style pair and tuple matching, highlighting, and text-objects
+	use("andymass/vim-matchup")   -- Provides language-specific % style pair and tuple matching, highlighting, and text-objects
 	use({
 		"beauwilliams/focus.nvim",
 		config = function()
 			require("focus").setup()
 		end,
-	}) -- auto screen resizer
-	use("Xuyuanp/scrollbar.nvim") -- Scrollbar
+	})                                -- auto screen resizer
+	use("Xuyuanp/scrollbar.nvim")     -- Scrollbar
 	use("norcalli/nvim-colorizer.lua") -- Color value highlighting
 	use({
 		"lukas-reineke/indent-blankline.nvim",
@@ -218,8 +218,10 @@ return packer.startup(function(use)
 			require("nvim-code-action").setup()
 		end,
 	})
-	use({ "glepnir/lspsaga.nvim", branch = "main",
-		config = function ()
+	use({
+		"glepnir/lspsaga.nvim",
+		branch = "main",
+		config = function()
 			require('lspsaga').setup({})
 		end
 	})
@@ -234,8 +236,8 @@ return packer.startup(function(use)
 	-- Easy to operate
 	use("tpope/vim-eunuch")
 	use("gennaro-tedesco/nvim-peekup") -- View historical copy and delete registers, shortcut keys ""
-	use("voldikss/vim-translator") -- npm install fanyi -g (install translation)
-	use("windwp/nvim-autopairs") -- Automatic symbol matching
+	use("voldikss/vim-translator")    -- npm install fanyi -g (install translation)
+	use("windwp/nvim-autopairs")      -- Automatic symbol matching
 	use("windwp/nvim-ts-autotag")
 	use("chaoren/vim-wordmotion")
 	-- for saving code snapshots

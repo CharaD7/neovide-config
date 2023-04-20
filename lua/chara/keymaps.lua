@@ -151,10 +151,10 @@ map("n", "<space>wa", ":lua vim.lsp.buf.add_workspace_folder()<CR>", opts)
 map("n", "<space>wr", ":lua vim.lsp.buf.remove_workspace_folder()<CR>", opts)
 map("n", "<space>wl", ":lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>", opts)
 -- Toggleterm
-map('n', '<leader>tf', ':Toggleterm<CR>', opts)
-map('n', '<leader>th', ':Toggleterm direction=horizontal<CR>', opts)
-map('n', '<leader>tt', ':Toggleterm direction=tab<CR>', opts)
-map('n', '<leader>tv', ':Toggleterm direction=vertical<CR>', opts)
+map('n', '<leader>tf', ':ToggleTerm<CR>', opts)
+map('n', '<leader>th', ':ToggleTerm direction=horizontal size=10<CR>', opts)
+map('n', '<leader>tt', ':ToggleTerm direction=tab size=10<CR>', opts)
+map('n', '<leader>tv', ':ToggleTerm direction=vertical size=10<CR>', opts)
 -- UndoTree
 map('n', '<c-u>', ':UndotreeToggle<CR>', opts)
 
