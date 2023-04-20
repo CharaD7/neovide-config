@@ -22,12 +22,17 @@ end
 
 
 vim.diagnostic.config({
-  update_in_insert = false,
-  virtual_text = false,
-  severity_sort = true,
+  code_lens_refresh = true,
+  document_highlight = false,
   float = {
     border = 'rounded',
-    -- source = 'always',
-    format = format_diagnostic
-  }
+    focusable = true,
+    format = format_diagnostic,
+    source = 'always',
+    style = 'minimal',
+  },
+  severity_sort = true,
+  underline = true,
+  update_in_insert = false,
+  virtual_text = false,
 })

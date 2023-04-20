@@ -10,7 +10,7 @@ end
 
 bufferline.setup {
 	options = {
-		separator_style = "slant",
+		separator_style = "thin", -- "slant" | "thick" | "thin" | { 'any', 'any' },
 		numbers = function(opts)
 			return string.format("%s", opts.raise(opts.ordinal))
 			-- return string.format('%s.%s', opts.ordinal, opts.raise(opts.id))
@@ -29,11 +29,11 @@ bufferline.setup {
 			end
 			return s
 		end,
-		color_icons = true, -- whether or not to add the filetype icon highlights
-		show_buffer_icons = true, -- enable filetype icons for buffers
+		color_icons = true,            -- whether or not to add the filetype icon highlights
+		show_buffer_icons = true,      -- enable filetype icons for buffers
 		show_buffer_default_icon = true, -- whether or not an unrecognised filetype should show a default icon
 		show_tab_indicators = true,
-		persist_buffer_sort = true, -- whether or not custom sorted buffers should persist
+		persist_buffer_sort = true,    -- whether or not custom sorted buffers should persist
 		enforce_regular_tabs = false,
 		always_show_bufferline = true,
 		sort_by = "insert_at_end", -- 'insert_at_end' | 'insert_after_current' | 'id' | 'extension' | 'relative_directory'
