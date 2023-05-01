@@ -7,7 +7,7 @@ local snips = function(opts)
   -- vscode format
   require('luasnip.loaders.from_vscode').lazy_load()
   require('luasnip.loaders.from_vscode').lazy_load { paths = vim.g.vscode_snippets_path or
-      '' }
+      '~/.local/share/nvim/site/pack/packer/start/friendly-snippets/snippets/' }
 
   -- lua format
   require('luasnip.loaders.from_lua').lazy_load()
