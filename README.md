@@ -147,6 +147,7 @@ Below is a list of the plugins used and their references (where you can find the
 | Sniprun                               | [Michael B](https://github.com/michaelb)         | [sniprun](https://github.com/michaelb/sniprun)                  |
 | Vim Wordmotion                        | [Chaoren Lin](https://github.com/chaoren)         | [vim-wordmotion](https://github.com/chaoren/vim-wordmotion)     |
 | Pretty Fold                           | [Yuriy Artemyev](https://github.com/anuvyklack)  | [pretty-fold.nvim](https://github.com/anuvyklack/pretty-fold.nvim) |
+| Markdown Preview                      | [iamcco](https://github.com/iamcco)              | [markdown-preview.nvim](https://github.com/iamcco/markdown-preview.nvim) |
 
 
 
