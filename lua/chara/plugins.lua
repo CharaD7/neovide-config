@@ -86,6 +86,11 @@ return packer.startup(function(use)
 			require('git-conflict').setup()
 		end,
 	})
+	-- Markdown preview
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function() vim.fn["mkdp#util#install"]() end,
+	})
 	-- git related
 	use("rmagatti/auto-session")
 	use("rmagatti/session-lens")
