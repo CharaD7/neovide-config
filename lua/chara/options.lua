@@ -35,15 +35,16 @@ local options = {
   signcolumn = "yes",                -- always show the sign column
   mouse = "a",                       -- allow the mouse to be used in neovim
   cmdheight = 0,                     -- more space in the neovim command line for displaying messages
-  guifont = "Fira Code iScript:h11", -- the font to use in neovim
+  guifont = "Fira Code iScript:h10", -- the font to use in neovim
   wrap = false,
   relativenumber = true,             -- show relative line numbers
   hlsearch = true,                   -- highlight all matches in previous search pattern
   incsearch = true,                  -- enable incremental search
   inccommand = "split",
   smarttab = true,
-  foldmethod = "indent",
-  foldlevel = indent,
+  foldmethod = "manual",
+  foldcolumn = '2',
+  foldlevel = 2,
   foldclose = "all",
   breakindent = true,
   lbr = true,
@@ -79,6 +80,7 @@ vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,
 vim.opt.fillchars:append('fold:•')
 -- More options for listchars.
 vim.opt.listchars:append("space:⋅")
+vim.opt.list = true
 vim.opt.listchars:append("eol:↴")
 -- vim.g.loaded_python_provider = 0
 -- vim.g.loaded_python4_provider = 3
@@ -87,11 +89,15 @@ vim.g.loaded_perl_provider = 0
 
 -- NEOVIDE CONFIGURATIONS
 vim.g.neovide_fullscreen = false
-vim.g.neovide_floating_blur_amount_x = 2.0
+vim.g.neovide_floating_blur_amount_x = 4.0
 vim.g.floaterm_winblend = 15
-vim.g.neovide_floating_blur_amount_y = 2.0
+vim.g.neovide_floating_blur_amount_y = 4.0
 vim.g.neovide_remember_window_size = true
--- vim.g.neovide_transparency = 0.8
+vim.g.neovide_transparency = 0.8
+vim.g.neovide_padding_top = 10
+vim.g.neovide_padding_bottom = 10
+vim.g.neovide_padding_right = 10
+vim.g.neovide_padding_left = 10
 vim.g.neovide_cursor_animation_length = 0.13
 vim.g.neovide_cursor_trail_length = 0.8
 vim.g.neovide_cursor_vfx_mode = "railgun" -- Railgun particles behind cursor
