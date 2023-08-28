@@ -88,7 +88,7 @@ vim.g.loaded_ruby_provider = 0
 vim.g.loaded_perl_provider = 0
 
 -- NEOVIDE CONFIGURATIONS
-vim.g.neovide_fullscreen = false
+vim.g.neovide_fullscreen = true
 vim.g.neovide_floating_blur_amount_x = 4.0
 vim.g.floaterm_winblend = 15
 vim.g.neovide_floating_blur_amount_y = 4.0
